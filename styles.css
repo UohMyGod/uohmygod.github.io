@@ -78,11 +78,11 @@ body {
 }
 
 @keyframes flyTop {
-  to { transform: translateY(-200px) rotate(140deg); }
+  to { transform: translateY(-1000px) rotate(140deg); }
 }
 
 @keyframes flyBottom {
-  to { transform: translateY(200px) rotate(140deg); }
+  to { transform: translateY(1000px) rotate(140deg); }
 }
 
 .site-content {
@@ -137,8 +137,8 @@ body {
 .static-circle-flash {
   transition-duration: 1s;
   position: absolute;
-  width: 800px;
-  height: 800px;
+  width: 1500px;
+  height: 1500px;
   border-radius: 50%;
   background: #f3f3ff;
   animation: fade-flash 2s linear 1.5s 1;
