@@ -24,33 +24,33 @@ body {
 
 .loader {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   animation: spin 1.2s linear 3;
 }
 
 .semi-circle {
   position: absolute;
-  width: 100px;
-  height: 50px;
+  width: 200px;
+  height: 100px;
   overflow: hidden;
 }
 
 .semi-circle::before {
   content: '';
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
 .top {
   top: 0;
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
 
 .top::before {
-  top: -50px;
+  top: 0px;
     background-color: #ff00ff;
 }
 
@@ -78,11 +78,11 @@ body {
 }
 
 @keyframes flyTop {
-  to { transform: translateY(-1000px) rotate(140deg); }
+  to { transform: translateY(-200px) rotate(320deg); }
 }
 
 @keyframes flyBottom {
-  to { transform: translateY(1000px) rotate(140deg); }
+  to { transform: translateY(200px) rotate(140deg); }
 }
 
 .site-content {
@@ -105,6 +105,7 @@ body {
   background-image: url('/images/top.png');
   background-repeat: no-repeat;
   background-position: top left;
+  background-size: 50%;
 }
 
 .bottom-curtain {
@@ -113,6 +114,7 @@ body {
   background-image: url('/images/bottom.png');
   background-repeat: no-repeat;
   background-position: bottom right;
+  background-size: 50%;
 }
 
 .fly-curtain-top {
@@ -131,8 +133,8 @@ body {
 
 .static-circle {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background: #00ffb7;
   z-index: 3;
@@ -141,8 +143,8 @@ body {
 .static-circle-flash {
   transition-duration: 1s;
   position: absolute;
-  width: 1500px;
-  height: 1500px;
+  width: 2000px;
+  height: 2000px;
   border-radius: 50%;
   background: #f3f3ff;
   animation: fade-flash 2s linear 1.5s 1;
