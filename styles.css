@@ -78,11 +78,11 @@ body {
 }
 
 @keyframes flyTop {
-  to { transform: translateY(-600%) rotate(320deg); }
+  to { transform: translateY(2000) rotate(320deg); }
 }
 
 @keyframes flyBottom {
-  to { transform: translateY(600%) rotate(140deg); }
+  to { transform: translateY(2000) rotate(140deg); }
 }
 
 .site-content {
