@@ -101,10 +101,14 @@ body {
 
 .top-curtain {
   top: 0;
+  background-color: #08162a;
+  background-image: url('images/top.png');
 }
 
 .bottom-curtain {
   bottom: 0;
+  background-color: #08162a;
+  background-image: url('images/bottom.png');
 }
 
 .fly-curtain-top {
