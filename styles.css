@@ -103,12 +103,14 @@ body {
   top: 0;
   background-color: #08162a;
   background-image: url('/images/top.png');
+  background-repeat: no-repeat;
 }
 
 .bottom-curtain {
   bottom: 0;
   background-color: #08162a;
   background-image: url('/images/bottom.png');
+  background-repeat: no-repeat;
 }
 
 .fly-curtain-top {
