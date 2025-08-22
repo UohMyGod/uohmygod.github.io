@@ -118,12 +118,12 @@ body {
 }
 
 .fly-curtain-top {
-  transform: translateY(-100%) rotate(-10deg);
+  transform: translateY(-300%) rotate(-10deg);
   opacity: 0;
 }
 
 .fly-curtain-bottom {
-  transform: translateY(100%) rotate(-10deg);
+  transform: translateY(300%) rotate(-10deg);
   opacity: 0;
 }
 
