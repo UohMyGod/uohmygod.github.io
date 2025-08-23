@@ -1,8 +1,8 @@
 setTimeout(() => {
   // THE TWO HALVES, YKNOW
+  document.getElementById('loader').style.animation = 'none';
   document.getElementById('topHalf').classList.add('fly-top');
   document.getElementById('bottomHalf').classList.add('fly-bottom');
-  document.getElementById('loader').style.animation = 'none';
 
   // BLOCKS
   document.getElementById('topCurtain').classList.add('fly-curtain-top');
