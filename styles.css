@@ -138,26 +138,26 @@ body {
   border-radius: 50%;
   background-color: #00ffb7;
   z-index: 3;
-  background-image: url('/images/logo.svg');
+  background-image: url('/images/logo.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 75%;
 }
 
 .static-circle-flash {
-  transition-duration: 1s;
+  transition-duration: 1.5s;
   transition: width 1s cubic-bezier(0.7, 0, 0.84, 0), height 1s cubic-bezier(0.7, 0, 0.84, 0), background-color 1s cubic-bezier(0.7, 0, 0.84, 0);
   position: absolute;
-  width: 2000px;
-  height: 2000px;
+  width: 3000px;
+  height: 3000px;
   border-radius: 50%;
   background-color: #f3f3ff;
   animation: fade-flash 2s ease-out 1.5s 1;
   z-index: 3;
-  background-image: url('/images/logo.svg');
+  background-image: url('/images/logo.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 75%;
 }
 }
 
