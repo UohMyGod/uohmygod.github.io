@@ -138,6 +138,9 @@ body {
   border-radius: 50%;
   background: #00ffb7;
   z-index: 3;
+  background-image: url('/images/logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .static-circle-flash {
