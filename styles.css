@@ -146,7 +146,7 @@ body {
 
 .static-circle-flash {
   transition-duration: 1.5s;
-  transition: width 1s cubic-bezier(0.7, 0, 0.84, 0), height 1s cubic-bezier(0.7, 0, 0.84, 0), background-color 1s cubic-bezier(0.7, 0, 0.84, 0);
+  transition: width 1s cubic-bezier(0.7, 0, 0.84, 0), height 1s cubic-bezier(0.7, 0, 0.84, 0), background-color 1s cubic-bezier(0.7, 0, 0.84, 0), background-image 0.5s cubic-bezier(0.7, 0, 0.84, 0);
   position: absolute;
   width: 3000px;
   height: 3000px;
@@ -154,7 +154,7 @@ body {
   background-color: #f3f3ff;
   animation: fade-flash 2s ease-out 1.5s 1;
   z-index: 3;
-  background-image: url('/images/logo.png');
+  background-image: none;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 75%;
